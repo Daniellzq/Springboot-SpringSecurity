@@ -1,0 +1,3 @@
+# Springboot-SpringSecurity
+springsecurity与springboot结合配置分析
+basic-security子项目是Springboot-SpringSecurity的搭建结合，以及针对SpringSecurity的配置加载和解析。
