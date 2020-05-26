@@ -14,3 +14,6 @@ spring:
       password: admin
       roles: user,admin
 
+logging:
+  level:
+    org.springframework.*: debug
