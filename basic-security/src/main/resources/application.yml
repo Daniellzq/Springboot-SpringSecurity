@@ -8,6 +8,20 @@ spring:
     template-loader-path: classpath:/templates/
     suffix: .html
 
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/springsecurity_demos?useSSL=false
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
   security:
     user:
       name: user
@@ -17,3 +31,5 @@ spring:
 logging:
   level:
     org.springframework.*: debug
+
+
