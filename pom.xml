@@ -5,10 +5,8 @@
 
     <modules>
         <module>basic-security</module>
-
+        <module>jwt-security</module>
     </modules>
-
-
 
     <parent>
         <groupId>org.springframework.boot</groupId>
